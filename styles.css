@@ -1,0 +1,47 @@
+/* Estilos Globais */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f9;
+   color: #333;
+   line-height: 1.6;
+   min-height: 100vh;
+}
+
+section {
+   width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   gap: 1rem;
+   padding: 2rem;
+   flex-wrap: wrap;
+}
+
+div.stack {
+   min-width: 20%;
+   height: fit-content;
+   padding: 20px;
+   background-color: #ffffff;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div.stack h2 {
+   font-size: 1.8em;
+   color: #3498db;
+   margin-bottom: 10px;
+}
+
+div.stack ul {
+   list-style-type: none;
+}
+
+div.stack ul li {
+   font-size: 1.2em;
+   margin: 5px 0;
+}
